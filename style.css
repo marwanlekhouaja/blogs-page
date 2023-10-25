@@ -1,0 +1,19 @@
+a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding: 6px;
+    font-size: 1rem;
+    transition:  1s all;
+}
+a:hover{
+    background-color: cornflowerblue;
+    border-radius: 7px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.search{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
