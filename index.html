@@ -22,17 +22,39 @@
   </head>
   <body>
     <!-- partie navbar -->
-    <nav class="ps-2 pe-2 shadow-lg position-sticky justify-content-between d-flex align-items-center text-decoration-none">
-      <h2>Marwan</h2>
-      <div class="navlinks">
-        <a class="text-decoration-none text-dark" href="">Blogs</a>
-        <a class="text-decoration-none text-dark" href="">NewsLetters</a>
-        <a class="text-decoration-none text-dark" href="">Videos</a>
-        <a class="text-decoration-none text-dark" href="">Podcasts</a>
-        <a class="text-decoration-none text-dark" href="">Resources</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg position-sticky">
+      <div class="container-fluid d-flex justify-content-between m-auto">
+        <a class="navbar-brand" href="#">Marwan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav d-flex justify-content-center m-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active text-decoration-none text-dark" aria-current="page" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none text-dark" href="#">NewsLetters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none text-dark" href="#">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none text-dark" aria-current="page" href="#">Podcasts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none text-dark" href="#">Resources</a>
+            </li>
+            <li class="nav-item mt-1">
+              <ion-icon id="icon" name="search-outline" class="search"></ion-icon>
+            </li>
+            
+           
+          </ul>
+        </div>
       </div>
-      <ion-icon name="search-outline" class="search"></ion-icon>
     </nav>
+    
     <div class="row m-3 p-3 d-flex justify-content-evenly ">
         <div class="col-10 col-lg-5 p-3 mt-2 shadow-lg rouned">
             <div class="blog">
@@ -76,5 +98,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
